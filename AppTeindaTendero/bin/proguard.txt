@@ -1,0 +1,30 @@
+# view AndroidManifest.xml #generated:48
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class innso.apptienda.tendero.FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class innso.apptienda.tendero.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class innso.apptienda.tendero.Ingresar_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class innso.apptienda.tendero.Inicio_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class innso.apptienda.tendero.Instrucciones_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class innso.apptienda.tendero.ProductoNuevo_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class innso.apptienda.tendero.Productos_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class innso.apptienda.tendero.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class innso.apptienda.tendero.Registro_Activity { <init>(...); }
+

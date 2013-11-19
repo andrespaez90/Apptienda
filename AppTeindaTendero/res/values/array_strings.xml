@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="categoria_panaderia">
+        <item>Panaderia</item>
+        <item>Frios</item>
+        <item>Lacteos</item>
+        <item>Beidas</item>
+        <item>Casa</item>
+        <item>Paquetes y Golocinas</item>
+        <item>Alm. no perecederos</item>
+    </string-array>
+    
+    <string-array
+        name="categoria_droguería">
+        <item>Bebidas</item>
+        <item>Aseo Personal</item>
+        <item>Periodico</item>
+        <item>Medicamentos</item>
+    </string-array>
+    
+    
+    <string-array
+        name="categoria_mercado">
+        <item>Frios</item>
+        <item>Lacteos</item>
+        <item>Beidas</item>
+        <item>Casa</item>
+        <item>Mascotas</item>
+        <item>Paquetes y Golocinas</item>
+        <item>Alm. no perecederos</item>
+        <item>Aseo Personal</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="innso.apptienda.tendero">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+   <permission android:name="innso.apptienda.tendero.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+
+   <uses-permission android:name="innso.apptienda.tendero.permission.C2D_MESSAGE"/>
+   <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+   <uses-permission android:name="android.permission.WAKE_LOCK"/>
+   <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+   <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+   <application 
+       android:allowBackup="true" 
+       android:icon="@drawable/ic_launcher" 
+       android:label="@string/app_name" 
+       android:theme="@style/AppTheme">
+        
+        <activity android:label="@string/app_name" 
+            android:name="innso.apptienda.tendero.Ingresar_Activity">
+        </activity>
+        <activity android:label="@string/title_activity_main" 
+            android:name="innso.apptienda.tendero.Inicio_Activity">
+        </activity>
+        <activity android:label="@string/title_activity_instrucciones" 
+            android:name="innso.apptienda.tendero.Instrucciones_Activity">
+        </activity>
+        <activity android:label="@string/title_activity_producto_nuevo" 
+            android:name="innso.apptienda.tendero.ProductoNuevo_Activity">
+        </activity>
+        <activity android:label="@string/title_activity_registro_" 
+            android:name="innso.apptienda.tendero.Registro_Activity">
+        </activity>
+        <activity android:label="@string/title_activity_productos_" 
+            android:name="innso.apptienda.tendero.Productos_Activity">
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" 
+            android:label="@string/app_name" 
+            android:name="innso.apptienda.tendero.FirstActivity" 
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".GCMIntentService"/>
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" 
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="innso.apptienda.tendero"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="innso.apptienda.tendero"/>
+            </intent-filter>
+        </receiver>
+    
+        <activity android:launchMode="singleTop" android:name=".RegisterActivity"/>
+</application>
+
+</manifest>

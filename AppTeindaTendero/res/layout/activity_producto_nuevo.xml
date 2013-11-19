@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProductoNuevo_Activity"
+    android:background="@color/activity_background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/titulo_nuevo_producto"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/registro_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/dato_nombre_producto"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/registro_nomEstablecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/registro_nombre"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="@string/dato_precio"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro_nomEstablecimiento"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:entries="@array/categoria_mercado" />
+
+    <Button
+        android:id="@+id/login_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="14dp"
+        android:background="#1c8c2b"
+        android:text="@string/boton_agregar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/login_salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/login_ingresar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/login_ingresar"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/boton_cancelar"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/registro_nomEstablecimiento"
+        android:layout_alignLeft="@+id/spinner1"
+        android:text="@string/mensaje_valor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

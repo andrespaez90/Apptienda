@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppTienda Tendero</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_telefono">Número de Telefono</string>
+    <string name="tiutlo_contrasena">Contraseña</string>
+    <string name="titulo_ingresar">Ingresar</string>
+    <string name="titulo_nuevousuario">Nuevo Usuario</string>
+    <string name="titulo_salir">Salir</string>
+    <string name="title_activity_main">Opciones Principales</string>
+    <string name="titulo_mis_productos">Mis Productos</string>
+    <string name="titulo_mis_pedidos">Mis Pedidos</string>
+    <string name="titulo_instructions">Instrucciones</string>
+    <string name="titulo_mi_tienda">Mi Tienda</string>
+    <string name="titulo_cerrar">Cerrar Tienda</string>
+    <string name="title_activity_instrucciones">Ayuda</string>
+    <string name="titulo_manual">Manual de Usuario</string>
+    <string name="titulo_bienvenida">Bienvenido a AppTienda</string>
+    <string name="titulo_error">Error!</string>
+    <string name="titulo_enviar_correo">Envianos un Correo</string>
+    <string name="boton_atras">Atras</string>
+    <string name="title_activity_producto_nuevo">Nuevo Producto</string>
+    <string name="titulo_nuevo_producto">Nuevo Producto</string>
+    <string name="dato_nombre_producto">Nombre o Descripción</string>
+    <string name="dato_precio">Valor del Producto</string>
+    <string name="boton_agregar">Agregar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="boton_nuevo_producto">Agregar un Producto</string>
+    <string name="botton_finalizar">Finalizar</string>
+    <string name="error_num_telefono">El número de teléfono no parece ser valido</string>
+    <string name="error_direccion_valida">La dirección no parece ser valida</string>
+    <string name="error_nombre_corto">El nombre es demasiado corto</string>
+    <string name="error_contrasena_corta">Las contraseña es demasiado corta</string>
+    <string name="error_contrasena_conincide">Las contraseñas no coinciden</string>
+    <string name="error_nombreEst_corto">El nombre del establecimiento es demasiado corto</string>
+    <string name="mensaje_valor">c/u $</string>
+    <string name="mensaje_registro">Vecino, antes de empezar, por favor complete los siguientes datos</string>
+    <string name="titulo_datos">Unos Daticos Vecin@</string>
+    <string name="title_activity_productos_">Mis Productos</string>
+    <string name="titulo_nombreapp">AppTienda</string>
+    <string name="titulo_slogan">El que tiene tienda que la AppTienda</string>
+    <string name="title_activity_registro_">Registro</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="texto_nombre_Tienda">Nombre del Establecimiento</string>
+    <string name="texto_repita_contrasena">Repita Contraseña</string>
+    <string name="texto_nueva_contrasena">Nueva Contraseña</string>
+    <string name="texto_direccion">Dirección</string>
+    <string name="texto_nombre">Nombre</string>
+    
+
+</resources>
